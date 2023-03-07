@@ -4,7 +4,53 @@
     padding: 0;
 }
 
-.content-container {
-    max-width: 1280px;
+.header-container {
+    max-width: 1920px;
     margin: auto;
+    background-color: #1f2937;
 }
+
+.header {
+    height: 400px;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #1f2937;
+    padding: 30px;
+}
+
+#h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    
+}
+
+
