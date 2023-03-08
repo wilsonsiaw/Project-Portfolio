@@ -1,5 +1,5 @@
 * {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -104,6 +104,9 @@ a {
 }
 
 .h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
