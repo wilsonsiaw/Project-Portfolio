@@ -138,5 +138,11 @@ a {
     align-items: center;
 }
 
-
+.midsection-two-container {
+    background-color: #e5e7eb;
+    height: 400px;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 40px;
+}
 
