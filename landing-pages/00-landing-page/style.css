@@ -187,3 +187,20 @@ a {
     margin-top: 60px;
 }
 
+.call-to-action-text-container {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.strong {
+    font-size: 24px;
+}
+
+
