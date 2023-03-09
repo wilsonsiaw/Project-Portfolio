@@ -203,4 +203,14 @@ a {
     font-size: 24px;
 }
 
+.call-to-action-button {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 8px 35px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-weight: 900;
+}
+
 
