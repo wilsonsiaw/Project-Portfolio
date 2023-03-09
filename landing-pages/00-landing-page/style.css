@@ -172,3 +172,8 @@ a {
     align-self: flex-end;
 }
 
+.midsection-three-container {
+    height: 250px;
+    max-width: 1920px;
+}
+
