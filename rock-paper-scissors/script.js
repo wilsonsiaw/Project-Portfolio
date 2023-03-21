@@ -20,11 +20,3 @@ function getComputerChoice(array) {
 
 // Call the function with array as the argument;
 console.log(getComputerChoice(array));
-
-
-// Create an array: randomArray;
-// Pass randomArray the values rock, paper, scissors;
-// Create a variable: randomChoice;
-// Assign MAth.floor and Math.random to random;
-// Multiply Math.random by the length of randomArray;
-// return randomChoice;
