@@ -18,16 +18,13 @@ function getComputerChoice(array) {
     return randomChoice;
 }
 
-// Call the function with array as the argument;
-console.log(getComputerChoice(array));
-
 // Create a function: playRound;
 // Pass the parameters playerSelection and computerSelection
 // to the playRound function;
 function playRound(playerSelection, computerSelection) {
 
 // Create comparison operators to determine who wins the round;
-    if (playerSelection === "Rock" && computerSelection === "Scissors") {
+    if (playerSelection === "Rock" || "rock" || "ROCK" && computerSelection === "Scissors") {
         return "You win! Rock beats Scissors";
     } else if (playerSelection === "Rock" && computerSelection === "Rock") {
         return "It's a tie!";
@@ -49,9 +46,8 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // Call the functions with a test playerSelection;
-const playerSelection = prompt("Choose Rock, Paper or Scissors");
+const playerSelection = prompt("Choose Rock, Paper, or Scissors");
 const computerSelection = getComputerChoice(array);
-console.log(computerSelection);
 console.log(playRound(playerSelection, computerSelection));
 
 
