@@ -24,7 +24,7 @@ function getComputerChoice(array) {
 function playRound(playerSelection, computerSelection) {
 
 // Create comparison operators to determine who wins the round;
-    if (playerSelection === "Rock" || "rock" || "ROCK" && computerSelection === "Scissors") {
+    if (playerSelection === "Rock" && computerSelection === "Scissors") {
         return "You win! Rock beats Scissors";
     } else if (playerSelection === "Rock" && computerSelection === "Rock") {
         return "It's a tie!";
