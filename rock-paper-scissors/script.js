@@ -19,7 +19,7 @@ function getComputerChoice(array) {
 }
 
 // Call the function with array as the argument;
-// console.log(getComputerChoice(array));
+console.log(getComputerChoice(array));
 
 // Create a function: playRound;
 // Pass the parameters playerSelection and computerSelection
@@ -49,9 +49,10 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // Call the functions with a test playerSelection;
-const playerSelection = "Paper";
+const playerSelection = prompt("Choose Rock, Paper or Scissors");
 const computerSelection = getComputerChoice(array);
 console.log(computerSelection);
 console.log(playRound(playerSelection, computerSelection));
+
 
 
