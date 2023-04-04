@@ -21,86 +21,86 @@ function getComputerChoice(array) {
 // Create a function: playRound;
 // Pass the parameters playerSelection and computerSelection
 // to the playRound function;
-function playRound(playerSelection, computerSelection) {
+function game() {
+
+    function playRound(playerSelection, computerSelection) {
 // Create comparison operators to determine who wins the round;
-    if (playerSelection === "Rock" && computerSelection === "Scissors") {
+        if (playerSelection === "Rock" && computerSelection === "Scissors") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "You win! Rock beats Scissors";
+            div.textContent = "You win! Rock beats Scissors";
 
-    } else if (playerSelection === "Rock" && computerSelection === "Rock") {
+        } else if (playerSelection === "Rock" && computerSelection === "Rock") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
         
-        div.textContent = "It's a tie!";
+            div.textContent = "It's a tie!";
 
-    } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
+        } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "You lose! Rock beats Scissors";
+            div.textContent = "You lose! Rock beats Scissors";
 
-    } else if (playerSelection === "Paper" && computerSelection === "Rock") {
+        } else if (playerSelection === "Paper" && computerSelection === "Rock") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "You win! Paper beats Rock";
+            div.textContent = "You win! Paper beats Rock";
 
-    } else if (playerSelection === "Paper" && computerSelection === "Paper") {
+        } else if (playerSelection === "Paper" && computerSelection === "Paper") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "It's a tie";
+            div.textContent = "It's a tie";
 
-    } else if (computerSelection === "Paper" && playerSelection === "Rock") {
+        } else if (computerSelection === "Paper" && playerSelection === "Rock") {
 
-        let div = document.querySelector("#text")
+            let div = document.querySelector("#text")
 
-        div.textContent = "You lose! Paper beats Rock";
+            div.textContent = "You lose! Paper beats Rock";
 
-    } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
+        } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "You win! Scissors beats Paper";
+            div.textContent = "You win! Scissors beats Paper";
 
-    } else if (playerSelection === "Scissors" && computerSelection === "Scissors") {
+        } else if (playerSelection === "Scissors" && computerSelection === "Scissors") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "It's a tie!";
+            div.textContent = "It's a tie!";
 
-    } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
+        } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
 
-        let div = document.querySelector("#text");
+            let div = document.querySelector("#text");
 
-        div.textContent = "You lose! Scissors beats Paper";
+            div.textContent = "You lose! Scissors beats Paper";
 
-    } 
+        } 
+    }
+
+        const computerSelection = getComputerChoice(array);
+
+        // Create three buttons and attach event listeners to them.
+        const rock = document.querySelector(".rock");
+        rock.addEventListener("click", function() {
+            playRound("Rock", computerSelection);
+        });
+
+        const paper = document.querySelector(".paper");
+        paper.addEventListener("click", function() {
+            playRound("Paper", computerSelection);
+        });
+
+        const scissors = document.querySelector(".scissors");
+        scissors.addEventListener("click", function() {
+            playRound("Scissors", computerSelection);
+        });
+
 }
 
-const computerSelection = getComputerChoice(array);
-
-// Create three buttons and attach event listeners to them.
-const rock = document.querySelector(".rock");
-rock.addEventListener("click", function() {
-    playRound("Rock", computerSelection);
-});
-
-const paper = document.querySelector(".paper");
-paper.addEventListener("click", function() {
-    playRound("Paper", computerSelection);
-});
-
-const scissors = document.querySelector(".scissors");
-scissors.addEventListener("click", function() {
-    playRound("Scissors", computerSelection);
-});
-
-
-
-
-
-
+game();
 
