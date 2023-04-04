@@ -22,33 +22,47 @@ function getComputerChoice(array) {
 // Pass the parameters playerSelection and computerSelection
 // to the playRound function;
 function playRound(playerSelection, computerSelection) {
-
 // Create comparison operators to determine who wins the round;
     if (playerSelection === "Rock" && computerSelection === "Scissors") {
-        return "You win! Rock beats Scissors";
+        console.log("You win! Rock beats Scissors");
     } else if (playerSelection === "Rock" && computerSelection === "Rock") {
-        return "It's a tie!";
+        console.log("It's a tie!");
     } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
-        return "You lose! Rock beats Scissors";
+        console.log("You lose! Rock beats Scissors");
     } else if (playerSelection === "Paper" && computerSelection === "Rock") {
-        return "You win! Paper beats Rock";
+        console.log("You win! Paper beats Rock");
     } else if (playerSelection === "Paper" && computerSelection === "Paper") {
-        return "It's a tie!";
+        console.log("It's a tie!");
     } else if (computerSelection === "Paper" && playerSelection === "Rock") {
-        return "You lose! Paper beats Rock";
+        console.log("You lose! Paper beats Rock");
     } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
-        return "You win! Scissors beats Paper";
+        console.log("You win! Scissors beats Paper");
     } else if (playerSelection === "Scissors" && computerSelection === "Scissors") {
-        return "It's a tie!";
+        console.log("It's a tie!");
     } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
-        return "You lose! Scissors beats Paper";
+        console.log("You lose! Scissors beats Paper");
     } 
 }
 
-// Call the functions with a test playerSelection;
-const playerSelection = prompt("Choose Rock, Paper, or Scissors");
 const computerSelection = getComputerChoice(array);
-console.log(playRound(playerSelection, computerSelection));
+
+// Create three buttons and attach event listeners to them.
+const rock = document.querySelector(".rock");
+rock.addEventListener("click", function() {
+    playRound("Rock", computerSelection);
+});
+
+const paper = document.querySelector(".paper");
+paper.addEventListener("click", function() {
+    playRound("Paper", computerSelection);
+});
+
+const scissors = document.querySelector(".scissors");
+scissors.addEventListener("click", function() {
+    playRound("Scissors", computerSelection);
+});
+
+
 
 
 
