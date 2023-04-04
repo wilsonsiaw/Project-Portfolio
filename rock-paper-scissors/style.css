@@ -8,3 +8,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    height: 700px;
+    width: 700px;
+    border: 5px solid #66fcf1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
