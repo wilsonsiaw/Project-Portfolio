@@ -29,63 +29,54 @@ function playRound(playerSelection, computerSelection) {
 
         div.textContent = "You win! Rock beats Scissors";
 
-        console.log("You win! Rock beats Scissors");
     } else if (playerSelection === "Rock" && computerSelection === "Rock") {
 
         let div = document.querySelector("#text");
         
         div.textContent = "It's a tie!";
 
-        console.log("It's a tie!");
     } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "You lose! Rock beats Scissors";
 
-        console.log("You lose! Rock beats Scissors");
     } else if (playerSelection === "Paper" && computerSelection === "Rock") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "You win! Paper beats Rock";
 
-        console.log("You win! Paper beats Rock");
     } else if (playerSelection === "Paper" && computerSelection === "Paper") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "It's a tie";
 
-        console.log("It's a tie!");
     } else if (computerSelection === "Paper" && playerSelection === "Rock") {
 
         let div = document.querySelector("#text")
 
         div.textContent = "You lose! Paper beats Rock";
 
-        console.log("You lose! Paper beats Rock");
     } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "You win! Scissors beats Paper";
 
-        console.log("You win! Scissors beats Paper");
     } else if (playerSelection === "Scissors" && computerSelection === "Scissors") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "It's a tie!";
 
-        console.log("It's a tie!");
     } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
 
         let div = document.querySelector("#text");
 
         div.textContent = "You lose! Scissors beats Paper";
-        
-        console.log("You lose! Scissors beats Paper");
+
     } 
 }
 
@@ -106,6 +97,8 @@ const scissors = document.querySelector(".scissors");
 scissors.addEventListener("click", function() {
     playRound("Scissors", computerSelection);
 });
+
+
 
 
 
