@@ -34,8 +34,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "You win! Rock beats Scissors";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You win! Rock beats Scissors") {
-                userScore = userScore += 1;
+                user = document.querySelector(".userScore");
+                user.textContent = userScore += 1;
             }
             console.log(userScore);
 
@@ -44,18 +46,22 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "It's a tie!";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "It's a tie!") {
-                tie = tie += 1;
+                ties = document.querySelector(".ties");
+                ties.textContent = tie += 1;
             }
-            console.log(tie);
+            console.log(ties);
 
         } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
 
             let div = document.querySelector("#text");
             div.textContent = "You lose! Rock beats Scissors";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You lose! Rock beats Scissors") {
-                machineScore = machineScore += 1;
+                machine = document.querySelector(".machineScore")
+                machine.textContent = machineScore += 1;
             }
             console.log(machineScore);
 
@@ -64,8 +70,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "You win! Paper beats Rock";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You win! Paper beats Rock") {
-                userScore = userScore += 1;
+                user = document.querySelector(".userScore");
+                user.textContent = userScore += 1;
             }
             console.log(userScore);
 
@@ -74,8 +82,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "It's a tie";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "It's a tie") {
-                tie = tie += 1;
+                ties = document.querySelector(".ties");
+                ties.textContent = tie += 1;
             }
             console.log(tie);
 
@@ -84,8 +94,10 @@ function game() {
             let div = document.querySelector("#text")
             div.textContent = "You lose! Paper beats Rock";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You lose! Paper beats Rock") {
-                machineScore = machineScore += 1;
+                machine = document.querySelector(".machineScore")
+                machine.textContent = machineScore += 1;
             }
             console.log(machineScore);
 
@@ -94,8 +106,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "You win! Scissors beats Paper";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You win! Scissors beats Paper") {
-                userScore = userScore += 1;
+                user = document.querySelector(".userScore");
+                user.textContent = userScore += 1;
             }
             console.log(userScore);
 
@@ -104,8 +118,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "It's a tie!";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "It's a tie!") {
-                tie = tie += 1;
+                ties = document.querySelector(".ties");
+                ties.textContent = tie += 1;
             }
             console.log(tie);
 
@@ -114,8 +130,10 @@ function game() {
             let div = document.querySelector("#text");
             div.textContent = "You lose! Scissors beats Paper";
 
+            // condition to check who wins the round and assign a score
             if (div.textContent === "You lose! Scissors beats Paper") {
-                machineScore = machineScore += 1;
+                machine = document.querySelector(".machineScore")
+                machine.textContent = machineScore += 1;
             }
             console.log(userScore);
 
