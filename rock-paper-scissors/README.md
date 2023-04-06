@@ -1,3 +1,7 @@
 **ROCK PAPER SCISSORS**
 
-In this portfolio project I build a simple Rock Paper Scissors game.
+This is my implementation of the popular children's game rock-paper-scissors.
+The game is played by clicking any of the rock, paper or scissors buttons. 
+
+![rpsbuttons](readme-img/rpsbuttons.png)
+
