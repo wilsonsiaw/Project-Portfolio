@@ -32,6 +32,12 @@ After the text has been displayed, a score is displayed on the score board. The 
 
 The game can be played [here](https://wilsonsiaw.github.io/Project-Portfolio/rock-paper-scissors/).
 
+## **What I learned**
+
+My main takeaway from this project was how to manipulate the Documnet Object Model (DOM) to display text and add event listeners that perform certain actions when a button is clicked.
+
+I also continued to learn how to structure an HTML document, how to style a page using CSS and also position items on a page using flexbox.
+
 ## **Challenges faced**
 
 I faced two major challenges during this project that I am working to resolve. 
@@ -42,8 +48,4 @@ Linked to this is the next challenge I faced. This challenge was around getting 
 
 These are the two main challenges I faced, and I am working to find a solution for them and will update the game as soon as I find solutions.
 
-## **What I learned**
 
-My main takeaway from this project was how to manipulate the Documnet Object Model (DOM) to display text and add event listeners that perform certain actions when a button is clicked.
-
-I also continued to learn how to structure an HTML document, how to style a page using CSS and also position items on a page using flexbox.
