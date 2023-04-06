@@ -31,7 +31,7 @@ body {
 #text {
     background-color: #c5c6c7;
     color: #0b0c10;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     height: 200px;
     width: 500px;
@@ -41,6 +41,12 @@ body {
     border: 2px solid #66fcf1;
     border-radius: 25px;
     padding: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .scoreboard {
@@ -59,6 +65,7 @@ body {
     justify-content: space-around;
     padding: 50px;
     margin: 20px;
+    gap: 20px;
 }
 
 .machine {
@@ -72,6 +79,7 @@ body {
     justify-content: space-around;
     padding: 50px;
     margin: 20px;
+    gap: 20px;
 }
 
 .tie {
@@ -85,6 +93,7 @@ body {
     justify-content: space-around;
     padding: 50px; 
     margin: 20px;
+    gap: 20px;
 }
 
 
