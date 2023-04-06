@@ -22,3 +22,4 @@ After each click of the button, text is displayed indicating if the user or comp
 
 ![rps-display](readme-img/rps-display.png)
 
+![rps-display2](readme-img/rps-display2.png)
