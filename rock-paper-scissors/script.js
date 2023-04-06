@@ -39,7 +39,6 @@ function game() {
                 user = document.querySelector(".userScore");
                 user.textContent = userScore += 1;
             }
-            console.log(userScore);
 
         } else if (playerSelection === "Rock" && computerSelection === "Rock") {
 
@@ -51,7 +50,6 @@ function game() {
                 ties = document.querySelector(".ties");
                 ties.textContent = tie += 1;
             }
-            console.log(ties);
 
         } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
 
@@ -63,7 +61,6 @@ function game() {
                 machine = document.querySelector(".machineScore")
                 machine.textContent = machineScore += 1;
             }
-            console.log(machineScore);
 
         } else if (playerSelection === "Paper" && computerSelection === "Rock") {
 
@@ -75,7 +72,7 @@ function game() {
                 user = document.querySelector(".userScore");
                 user.textContent = userScore += 1;
             }
-            console.log(userScore);
+
 
         } else if (playerSelection === "Paper" && computerSelection === "Paper") {
 
@@ -87,7 +84,7 @@ function game() {
                 ties = document.querySelector(".ties");
                 ties.textContent = tie += 1;
             }
-            console.log(tie);
+
 
         } else if (computerSelection === "Paper" && playerSelection === "Rock") {
 
@@ -99,7 +96,6 @@ function game() {
                 machine = document.querySelector(".machineScore")
                 machine.textContent = machineScore += 1;
             }
-            console.log(machineScore);
 
         } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
 
@@ -111,7 +107,6 @@ function game() {
                 user = document.querySelector(".userScore");
                 user.textContent = userScore += 1;
             }
-            console.log(userScore);
 
         } else if (playerSelection === "Scissors" && computerSelection === "Scissors") {
 
@@ -123,7 +118,6 @@ function game() {
                 ties = document.querySelector(".ties");
                 ties.textContent = tie += 1;
             }
-            console.log(tie);
 
         } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
 
@@ -135,8 +129,6 @@ function game() {
                 machine = document.querySelector(".machineScore")
                 machine.textContent = machineScore += 1;
             }
-            console.log(userScore);
-
         } 
 }
 
@@ -159,6 +151,7 @@ function game() {
         });
 
 }
+
 
 game();
 
