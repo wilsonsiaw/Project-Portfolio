@@ -43,28 +43,40 @@ body {
     padding: 50px;
 }
 
-.userScore {
+.player {
     border-radius: 25px;
     border: 5px solid #66fcf1;
     background-color: #c5c6c7;
-    margin: 100px;
-    padding: 50px;
+    color: #0b0c10;
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.machineScore {
+.machine {
     border-radius: 25px;
     border: 5px solid #66fcf1;
     background-color: #c5c6c7;
-    margin: 100px;
-    padding: 50px;
+    color: #0b0c10;
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.ties {
+.tie {
     border-radius: 25px;
     border: 5px solid #66fcf1;
     background-color: #c5c6c7;
-    margin: 100px;
-    padding: 50px;
+    color: #0b0c10;
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
 }
 
 
