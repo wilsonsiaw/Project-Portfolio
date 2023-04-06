@@ -1,7 +1,7 @@
 # **ROCK PAPER SCISSORS**
 
 ## **Introduction**
-This is my implementation of the popular game rock-paper-scissors.Traditionally the game is played by 2 "in which each player simultaneously forms one of three shapes with an outstretched hand", according to [rock-paper-scissors-wikipedia-page](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+This is my implementation of the popular game rock-paper-scissors.Traditionally the game is played by 2 "in which each player simultaneously forms one of three shapes with an outstretched hand", according to [wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
 
 ## **Technologies used**
 
@@ -18,8 +18,12 @@ The game is played by clicking any of the rock, paper or scissors buttons. The u
 
 ![rpsbuttons](readme-img/rpsbuttons.png)
 
-After each click of the button, text is displayed indicating if the user or computer won that round of the game. 
+After each click of the button, text is displayed indicating if the user or computer won that round of the game or if the round ended in a tie.
 
 ![rps-display](readme-img/rps-display.png)
 
 ![rps-display2](readme-img/rps-display2.png)
+
+After the text has been displayed, a score is displayed on the score board. The score is calculated based on who won the particular round of the game.
+
+![rpsscoreboard](readme-img/rpsscoreboard.png)
