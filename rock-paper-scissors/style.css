@@ -49,6 +49,33 @@ body {
     gap: 50px;
 }
 
+.rock {
+    color: #0b0c10;
+    font-weight: 800;
+    border: 3px solid #66fcf1;
+    border-radius: 5px;
+    background-color: #c5c6c7;
+    padding: 10px 30px;
+}
+
+.paper {
+    color: #0b0c10;
+    font-weight: 800;
+    border: 3px solid #66fcf1;
+    border-radius: 5px;
+    background-color: #c5c6c7;
+    padding: 10px 30px; 
+}
+
+.scissors{
+    color: #0b0c10;
+    font-weight: 800;
+    border: 3px solid #66fcf1;
+    border-radius: 5px;
+    background-color: #c5c6c7;
+    padding: 10px 20px;
+}
+
 .scoreboard {
     display: flex;
     flex-direction: column;
