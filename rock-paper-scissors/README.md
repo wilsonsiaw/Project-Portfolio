@@ -48,4 +48,12 @@ Linked to this is the next challenge I faced. This challenge was around getting 
 
 These are the two main challenges I faced, and I am working to find a solution for them and will update the game as soon as I find solutions.
 
+## **Contact**
 
+![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white).
+
+I can be contacted for any comments and contributions  at :
+
+**wilsonsiawse@gmail.com**
+
+Thank you for reading this README.
