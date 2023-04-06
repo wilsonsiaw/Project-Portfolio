@@ -3,6 +3,8 @@
 ## **Introduction**
 This is my implementation of the popular game rock-paper-scissors.Traditionally the game is played by 2 "in which each player simultaneously forms one of three shapes with an outstretched hand", according to [wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors).
 
+[This](https://wilsonsiaw.github.io/Project-Portfolio/rock-paper-scissors/) version of the game is web based.
+
 ## **Technologies used**
 
 To complete this project, I used the following technologies:
@@ -40,3 +42,8 @@ Linked to this is the next challenge I faced. This challenge was around getting 
 
 These are the two main challenges I faced, and I am working to find a solution for them and will update the game as soon as I find solutions.
 
+## **What I learned**
+
+My main takeaway from this project was how to manipulate the Documnet Object Model (DOM) to display text and add event listeners that perform certain actions when a button is clicked.
+
+I also continued to learn how to structure an HTML document, how to style a page using CSS and also position items on a page using flexbox.
