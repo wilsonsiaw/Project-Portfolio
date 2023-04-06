@@ -28,4 +28,15 @@ After the text has been displayed, a score is displayed on the score board. The 
 
 ![rpsscoreboard](readme-img/rpsscoreboard.png)
 
-The game can be played [here](https://wilsonsiaw.github.io/Project-Portfolio/rock-paper-scissors/)
+The game can be played [here](https://wilsonsiaw.github.io/Project-Portfolio/rock-paper-scissors/).
+
+## **Challenges faced**
+
+I faced two major challenges during this project that I am working to resolve. 
+
+The first one was around getting the game to stop playing one the computer or user gets to a certain number of points. For example, the game should be able to display the winner if either the computer or the player gets to say 10 points.
+
+Linked to this is the next challenge I faced. This challenge was around getting the game to refresh or restart itself after a winner has been declared.
+
+These are the two main challenges I faced, and I am working to find a solution for them and will update the game as soon as I find solutions.
+
